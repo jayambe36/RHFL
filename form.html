@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive Registration Form</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+      <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="form-body">
+    <div class="container">
+      <h1 class="form-title">Fill This Form</h1>
+      <form action="pay.html" method="post">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Full Name</label>
+            <input type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Enter Full Name" required/>
+          </div>
+          <div class="user-input-box">
+            <label for="username">Username</label>
+            <input type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter Username" required/>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Email" required/>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="Enter Phone Number" required/>
+          </div>
+          <div class="user-input-box">
+            <label for="countryname">Enter Country Name</label>
+            <input type="text"
+                    id="countryname"
+                    name="countryname"
+                    placeholder="Enter Country Name" required/>
+          </div>
+          <div class="user-input-box">
+            <label for="cityname">Enter City Name</label>
+            <input type="text"
+                    id="cityname"
+                    name="cityname"
+                    placeholder="Enter City Name" required/>
+          </div>
+          <div class="user-input-box">
+            <label for="statename">Enter State Name</label>
+            <input type="text"
+                    id="statename"
+                    name="statename"
+                    placeholder="Enter State Name" required/>
+          </div>
+          <div class="user-input-box">
+            <label for="identitycard">Enter PAN No.</label>
+            <input type="text"
+                    id="identitycard"
+                    name="identitycard"
+                    placeholder="Enter PAN No." required/>
+          </div>
+          <div class="user-input-box">
+            <label for="address">Enter Your Address</label>
+            <input type="text"
+                    id="address"
+                    name="address"
+                    placeholder="Enter Your Address" required/>
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" class="btn btn-success btn-block" onclick="MakePay()" value="Donate">
+        </div>
+      </form>
+    </div>
+  </body>
+  </html>
